@@ -1,0 +1,21 @@
+#! /bin/bash
+
+if [ "$1" == 'Mark' ]; then
+	echo "Hello $1"
+elif [ "$1" == 'Trup' ]; then
+	echo "Go away Trup"
+else echo "Hello friend"
+fi
+
+#echo "Please enter something:"
+#read x
+read -p "Enter something:"  x
+
+echo "Starting Case selection..."
+case $x in
+	1)  echo "This is one";;
+    [2-9])  echo "Two-Nine";;
+   "Petya") echo "Hello $2";;
+     	*)  echo "Parameter Uknown, sorry!"
+
+esac	

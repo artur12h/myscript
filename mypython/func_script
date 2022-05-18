@@ -1,0 +1,9 @@
+#! /bin/bash
+
+myfunc()
+{
+
+                   echo "This is function"
+}
+
+myfunc

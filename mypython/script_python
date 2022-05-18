@@ -1,0 +1,14 @@
+# ----------------------------------------------
+# Program by Arthur for study                                         
+#                                               
+#                                               
+# Version         Date         lesson           
+#  none           2022       'Loop on python'   
+#                                               
+#-----------------------------------------------
+
+for x in range(100,10,-2):
+    print("Number x ="+str(x))
+    if x == 50:
+       break
+print('----------EOP---------')

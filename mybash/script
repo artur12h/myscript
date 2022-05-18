@@ -1,0 +1,16 @@
+#! /bin/bash
+
+
+echo 'Имя ползователя:'$USER
+name="Dmitry"
+str="Имя ползователя"
+echo $str $name
+a=`pwd`
+echo "Расположение мое: $a."
+numb=10
+numb2=12
+numb3=$(($numb + $numb2))
+echo $numb3
+
+
+

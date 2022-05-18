@@ -1,0 +1,10 @@
+#! /bin/bash
+name_user= dmitry
+if grep $name_user  /etc/passwd
+then
+echo 'ПОЛЗОВАТЕЛЬ НАЙДЕН'
+cd /home
+ls
+else 
+echo 'Ползователь не найден'
+fi

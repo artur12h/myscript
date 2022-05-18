@@ -1,0 +1,4 @@
+#! /bin/bash
+mycomputer="lenovo s3"
+myOS=`uname -a `
+echo "hello" $myOS
